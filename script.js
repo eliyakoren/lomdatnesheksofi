@@ -64,10 +64,10 @@ function setScreenTheme(screen) {
 }
 
 function setOverflow(mode) {
-  document.documentElement.style.overflowX = "hidden";
-  document.body.style.overflowX = "hidden";
-  document.documentElement.style.overflowY = mode;
-  document.body.style.overflowY = mode;
+  document.documentElement.style.overflowX = "auto";
+  document.body.style.overflowX = "auto";
+  // document.documentElement.style.overflowY = mode;
+  // document.body.style.overflowY = mode;
 }
 
 startQuizBtn.addEventListener("click", () => {
