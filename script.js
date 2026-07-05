@@ -212,5 +212,5 @@ function selectAnswer(index, btn) {
 }
 
 setScreenTheme("start");
-setOverflow("hidden");
+setOverflow("auto");
 updateHeader();
